@@ -3,8 +3,7 @@ body {
   color: #212121;
 }
 .blue-font {
-  color: 
-  #2196F3;
+  color: #2196f3;
 }
 h3 {
   font: 700;
@@ -14,50 +13,124 @@ h3 {
   line-height: 36px;
 }
 p {
-
   font-weight: 400;
   size: 16px;
   line-height: 30px;
   color: #757575;
-
 }
 .none {
   font-family: Raleway;
   font-size: 26px;
   font-weight: 700;
   line-height: 100%;
+  margin-left: 215px;
 }
 .another-none {
- 
   font-size: 14px;
   font-weight: 500;
   line-height: 100%;
 }
 .buttons :hover,
 .button:focus {
-  color:#2196F3;
+  color: #2196f3;
 }
 .another-none:hover,
 .another-none:focus {
-  color:#2196F3;
+  color: #2196f3;
 }
 .href :hover,
 .href:focus {
-  color:#2196F3 ;
+  color: #2196f3;
 }
 a {
   text-decoration: none;
   color: #212121;
   font-size: 14px;
 }
-link{ text-decoration: none;}
-a:hover , a:focus {
-    color: #2196F3;
+link {
+  text-decoration: none;
 }
-button{
-    line-height: 139%;
-    cursor: pointer;
+a:hover,
+a:focus {
+  color: #2196f3;
 }
-.href{
-    line-height: 146%;
+button {
+  line-height: 139%;
+  cursor: pointer;
+}
+.href {
+  line-height: 146%;
+}
+div {
+  display: block;
+}
+*/*{
+    box-sizing: border-box;
+    margin:0;
+    padding:0;}*/
+.container {
+  max-width: 1200px;
+  padding-top: 94px;
+  padding-bottom: 94px;
+  margin-top: 174px;
+  /*margin-left: 215px;
+  margin-right: 215px;
+  margin-bottom: 346px;*/
+}
+.menu {
+  display: flex;
+  list-style: none;
+  justify-content: center;
+  align-items: center;
+}
+.header-adress {
+  margin-left: 364px;
+  align-items: center;
+  padding: 32px;
+}
+.page-header {
+  display: flex;
+  border: solid 1px #ececec;
+  width: 1600;
+  height: 80px;
+  outline: 1px #ececec;
+}
+.logo {
+  display: block;
+  padding-top: 24px;
+}
+.card-set {
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  /*column-gap: 30px;*/
+}
+.card {
+  flex-basis: calc((100%-2 * 30px) / 3);
+}
+.card h3 {
+  margin-bottom: 30px;
+  border-bottom: solid 1px #eeeeee;
+  border-left: solid 1px #eeeeee;
+  border-right: solid 1px #eeeeee;
+}
+.footer-adress {
+  height: 252px;
+  width: 1600px;
+  left: 0px;
+  top: 1628px;
+
+  background-color: #2f303a;
+}
+content {
+  width: 145px;
+  height: 31px;
+  left: 215px;
+  top: 1688px;
+  list-style: none;
+}
+nav {
+  margin-left: 93px;
+  margin-right: 46px;
+  padding: 32px;
 }

@@ -1,40 +1,40 @@
 <!DOCTYPE html>
-<html lang="pl">
+<html lang="en">
   <head>
-    <link rel="stylesheet" href=".styles.css" />
+    <link rel="stylesheet" href="./css/styles.css" />
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Raleway:wght@700&family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
     <title>Web Studio</title>
   </head>
-  <body>
-    <header>
-      <a class="none" href="#"><span class="blue-font">Web</span>Studio</a>
+  <body><div >
+    <header class="page-header">
+      <a class="none logo" href="#"><span class="blue-font ">Web</span>Studio</a>
       <nav>
-        <ul>
+        <ul class="menu" >
           <li><a class="another-none" href="./index.html">Agencja</a></li>
           <li><a class="another-none" href="#">Portfolio</a></li>
           <li><a class="another-none" href="#">Kontakt</a></li>
         </ul>
       </nav>
-      <a href="mailto:info@devstudio.com">info@devstudio.com</a>
-      <a href="tel:48111111111">+48 111 111 111</a>
-    </header>
+      <a class="header-adress"  href="mailto:info@devstudio.com">info@devstudio.com</a>
+      <a class="header-adress"  href="tel:48111111111">+48 111 111 111</a>
+    </header></div>
 
     <main>
       <!--portfolio-->
-
-      <ul class="buttons">
+<div class="container">
+      <ul class="buttons menu">
         <li><button class="button" type="button">Wszystkie</button></li>
         <li><button class="button" type="button">Strony</button></li>
         <li><button class="button" type="button">Aplikacje</button></li>
         <li><button class="button" type="button">Disajn</button></li>
         <li><button class="button" type="button">Marketing</button></li>
-      </ul>
-
-      <ul class="portfolio">
-        <li>
+      </ul></div>
+<div >
+      <ul class="portfolio card-set">
+        <li class="card">
           <img
             src="images/Portfolio/ekran.jpg"
             alt="ekran monitora"
@@ -42,10 +42,10 @@
             height="294"
           />
 
-          <h3>Technockrack</h3>
+          <h3 class="card h3">Technockrack</h3>
           <p>Strona internetowa</p>
         </li>
-        <li>
+       <li class="card">
           <img
             src="images/Portfolio/koszykarze.jpg"
             alt="koszykarze z piłką"
@@ -54,8 +54,8 @@
           />
           <h3>Grafika New Orlean vs Golden Star</h3>
           <p>Dizajn</p>
-        </li>
-        <li>
+        </li></span>
+        <li class="card">
           <img
             src="images/Portfolio/logo.jpg"
             alt="logo restauracji"
@@ -64,8 +64,8 @@
           />
           <h3>Restauracja Seafood</h3>
           <p>Aplikacja</p>
-        </li>
-        <li>
+        </li></span>
+        <li class="card">
           <img
             src="images/Portfolio/słuchawki.jpg"
             alt="słuchawki"
@@ -76,7 +76,7 @@
           <p>Marketing</p>
         </li>
 
-        <li>
+        <li class="card">
           <img
             src="images/Portfolio/boxes.jpg"
             alt="pudełka"
@@ -86,7 +86,7 @@
           <h3>Projekt Boxes</h3>
           <p>Aplikacja</p>
         </li>
-        <li>
+        <li class="card">
           <img
             src="images/Portfolio/window.jpg"
             alt="ekran"
@@ -96,7 +96,7 @@
           <h3>Inspiration has no Borders</h3>
           <p>Strona Internetowa</p>
         </li>
-        <li>
+        <li class="card">
           <img
             src="images/Portfolio/book.jpg"
             alt="książka"
@@ -106,7 +106,7 @@
           <h3>Magazyn Limited Edition</h3>
           <p>Dizajn</p>
         </li>
-        <li>
+        <li class="card">
           <img
             src="images/Portfolio/zawieszka.jpg"
             alt="zawieszka"
@@ -116,7 +116,7 @@
           <h3>Projekt LAB</h3>
           <p>Marketing</p>
         </li>
-        <li>
+        <li class="card">
           <img
             src="images/Portfolio/laptop.jpg"
             alt="laptop"
@@ -126,16 +126,16 @@
           <h3>Growing Business</h3>
           <p>Aplikacja</p>
         </li>
-      </ul>
+      </ul></div>
     </main>
-
-    <footer>
+<div>
+    <footer class="footer-adress" >
       <a class="none  header" href="#"
         ><span class="blue-font">Web</span>Studio</a
       >
 
       <address>
-        <ul>
+        <ul >
           <li>
             <a href="https://goo.gl/maps/x3iuPh3qe1rizQfR7" target="_blank"
               >m. Warszawa, Aleje Jerozolimskie 21</a
@@ -143,9 +143,10 @@
           </li>
          
         </ul>
+      
       </address>
       <ul> <li><a href="mailto:info@example.com">info@example.com</a></li>
         <li><a href="tel:48111111111">+48 111 111 111</a></li></ul>
-    </footer>
+    </footer></div>
   </body>
 </html>

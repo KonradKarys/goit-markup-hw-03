@@ -64,15 +64,17 @@ button {
 div {
   display: block;
 }
-*/*{
+*{
     box-sizing: border-box;
     margin:0;
-    padding:0;}*/
+    padding:0;}
 .container {
   max-width: 1200px;
-  padding-top: 94px;
+  /*ramka pomocnicza*/
+  border: dashed black
+  /*padding-top: 94px;
   padding-bottom: 94px;
-  margin-top: 174px;
+  margin-top: 174px;*/
   /*margin-left: 215px;
   margin-right: 215px;
   margin-bottom: 346px;*/
@@ -80,11 +82,27 @@ div {
 .menu {
   display: flex;
   list-style: none;
+
   justify-content: center;
   align-items: center;
+  /*pomocnicze ramki*/
+  border: dashed green
 }
+.item{
+  display: block;
+}
+.menu1>.item:not(:last-child){
+  margin-right: 8px;
+}
+.menu1 {
+list-style: none;
+display: flex;
+margin: 0px;
+padding: 0px;
+}
+
 .header-adress {
-  margin-left: 364px;
+  /*margin-left: 364px;*/
   align-items: center;
   padding: 32px;
 }
@@ -98,6 +116,8 @@ div {
 .logo {
   display: block;
   padding-top: 24px;
+  /*ramka pomocnicza*/
+  border: dashed red;
 }
 .card-set {
   list-style: none;
@@ -130,6 +150,8 @@ content {
   list-style: none;
 }
 nav {
+  
+ 
   margin-left: 93px;
   margin-right: 46px;
   padding: 32px;

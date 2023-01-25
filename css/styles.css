@@ -115,9 +115,11 @@ button {
 }
 header {
   display: flex;
+  justify-content: center;
 }
 .logo {
   display: block;
+  justify-content: flex-start;
   font-family: Raleway;
   padding-top: 24;
   padding-bottom: 25px;
@@ -128,22 +130,26 @@ header {
 }
 .logo-position {
   display: flex;
+  padding-top: 24px;
   justify-content: flex-start;
 }
 .menu-position {
   display: flex;
+  padding: 32px;
   justify-content: center;
 }
 
 .header-adress {
   display: flex;
+  padding: 32px 0;
+  justify-content: flex-end;
 }
 .page-header {
   display: flex;
-
   border-bottom: 1px solid #ececec;
 }
 .menu1 {
+
   list-style: none;
   display: flex;
   justify-content: center;

@@ -35,13 +35,7 @@ p {
   line-height: 30px;
   color: #757575;
 }
-.none {
-  font-family: Raleway;
-  font-size: 26px;
-  font-weight: 700;
-  line-height: 100%;
-  margin-left: 215px;
-}
+
 .another-none {
   font-size: 14px;
   font-weight: 500;
@@ -64,10 +58,12 @@ a {
   text-decoration: none;
   color: #212121;
   font-size: 14px;
+  
 }
 link {
   text-decoration: none;
   color: aliceblue;
+  
 }
 a:hover,
 a:focus {
@@ -111,7 +107,9 @@ button {
   max-width: 1200px;
   width: 100%;
   margin: 0 auto;
-  display:flex;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
 
 .section {
@@ -119,8 +117,7 @@ button {
 }
 header {
   display: flex;
-  flex-direction:row;
-  justify-content: space-between;
+  flex-direction: row;
 }
 .logo {
   font-family: Raleway;
@@ -138,7 +135,7 @@ header {
 }
 .header-adress {
   padding: 32px 0;
-  display:flex;
+  display: flex;
 }
 .header-adress > a:last-child {
   margin-left: 50px;
@@ -148,8 +145,7 @@ header {
 }
 .menu1 {
   list-style: none;
-  display:flex;
-  margin-left: 93px;
+  display: flex;
 }
 .menu1 > .item:not(:last-child) {
   margin-right: 32px;
@@ -197,6 +193,7 @@ header {
 }
 .ower-team {
   background-color: #f5f4fa;
+  padding-bottom: 94px;
 }
 
 .card {
@@ -210,15 +207,22 @@ footer {
   background-color: #2f303a;
   padding: 60px 0;
   height: 252px;
+ 
 }
+
 .blue-font {
   color: #2196f3;
 }
 .footer-adress {
   text-decoration: none;
   margin: 0 auto;
-  list-style: none;
   color: #ffffff;
+  list-style-type:none;
+  
+}
+.footer-adress a {
+  color: #ffffff;
+  
 }
 .adress {
   font-size: 14px;
@@ -226,14 +230,18 @@ footer {
   line-height: 24px;
   text-decoration: none;
 }
+
 .footer-color li {
   display: block;
-  margin-left: 215px;
+ 
 }
-.logo-color{
+.footer-adress :hover{
+  color: #2196f3;
+}
+.logo-color {
   color: #ffffff;
 }
-.footer-color  a{
+.footer-color a {
   color: rgba(255, 255, 255, 0.6);
 }
 

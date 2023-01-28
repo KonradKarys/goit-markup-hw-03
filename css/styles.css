@@ -86,8 +86,12 @@ button {
   width: 200px;
   height: 50px;
   background: #2196f3;
-  margin-left: 42%;
-  margin-top: 40px;
+margin: 0 auto;
+padding:  auto;
+text-align: center;
+
+color:rgba(255, 255, 255, 1);
+
 }
 .href {
   line-height: 146%;
@@ -154,7 +158,6 @@ header {
   display: flex;
   list-style: none;
   justify-content: center;
-  padding-top: 94px;
   padding-bottom: 56px;
 }
 
@@ -163,7 +166,6 @@ header {
 }
 .about-us {
   display: flex;
-  padding: 94px 0;
   list-style-type: none;
 }
 .about-us p {
@@ -186,14 +188,13 @@ header {
   list-style-type: none;
   display: flex;
   height: 100%;
-  padding: 94px 0;
 }
 .card-index > .item:not(:last-child) {
   margin-right: 30px;
 }
 .ower-team {
   background-color: #f5f4fa;
-  padding-bottom: 94px;
+  
 }
 
 .card {
@@ -247,4 +248,5 @@ footer {
 
 .img {
   background-color: #2f303a;
+  padding: 200px 0;
 }
